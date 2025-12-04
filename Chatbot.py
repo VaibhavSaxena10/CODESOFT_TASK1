@@ -4,11 +4,12 @@ patterns_responses = {
     r'\b(hi|hello|hey)\b': "Hello! How can I help you today?",
     r'good (morning|afternoon|evening)': "Good day! How can I assist you?",
     r'how are you': "I am just a rule-based bot, but I am doing great!",
-    r'what is your name|who are you': "I am a simple chatbot created for my AI internship task.",
-    r'what can you do|your purpose': "I can respond to basic greetings and simple questions using predefined rules.",
-    r'help': "You can say hi, ask my name, ask how I am, or type bye to exit.",
-    r'thank you|thanks': "You are welcome!",
-    r'bye|goodbye|see you': "Goodbye! It was nice talking to you.",
+    r'what is you name | who are you': "I am a simple Chatbot who responses according to some predifiend rules.",
+    r'what can you do|what is your purpose': "I can respond to basic greetings and simple questions using predefined rules.",
+    r'Chat Related help': "You can say hi, ask my name, ask how I am, or type bye to exit.",
+    r'thank you|thanks': "You are most welcome!",
+    r'bye|goodbye|see ya': "Good night it was nice talking to you.",
+    r'are you real': "I am a program, not a human, but I can still chat with you.",
 }
 
 default_response = "Sorry, I did not understand that. Could you please rephrase?"
